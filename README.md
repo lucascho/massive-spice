@@ -1,2 +1,2 @@
-massive_spice
+massive-spice
 =============

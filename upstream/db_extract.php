@@ -1,9 +1,9 @@
 <?php
     $dbhost = 'localhost';
     $dbuser = 'root';
-    $dbpass = 'asdf';
-    $dbname = 'sugar_7_7_ent';
-    $jsonfile = '/tmp/dump.json';
+    $dbpass = 'root';
+    $dbname = 'si_dump';
+    $jsonfile = '/Users/rwang/Documents/Projects/data/massive-spice/data/dump.json';
     $conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
@@ -25,10 +25,9 @@
         "best_case" => "numeric",
         "worst_case" => "numeric",
         "commit_stage" => "string",
-        "total_revenue_line_items" => "numeric",
-        "closed_revenue_line_items" => "numeric",
     );
     $sql = "SELECT sales_stage, " . implode(', ', array_keys($fields)) . " FROM opportunities";
+    echo $sql . "\n";
     $result = $conn->query($sql);
     $output = array();
     // go through each row from the db
@@ -41,7 +40,7 @@
         }
         // go through each field from the results and capture it in the appropriate place
         foreach ($fields as $field => $type) {
-            if (!$output[$status][$field]) {
+            if (empty($output[$status]) || !$output[$status][$field]) {
                 $output[$status][$field] = array(
                     "type" => $type,
                     "values" => array(),

@@ -34,7 +34,7 @@
     // go through each row from the db
     while ($row = $result->fetch_assoc()) {
         // we're using the status field as our grouping parameter
-        $status = $row['status'];
+        $status = $row['sales_stage'];
         if (!$output[$status]) {
             $output[$status] = array();
             $output[$status]['count'] = 0;

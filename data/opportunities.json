@@ -1,0 +1,16 @@
+{
+  "status": {
+    "closed won": { 
+      "title": { "type": "string", "values": ["abc","ddd","eee","ggg","ddd","aaa","lll"]},
+      "salutatiooon": { "type": "string", "values": ["abc","ddd","eee","ggg","ddd","aaa","lll"]},
+      "department": { "type": "string", "values": ["kls","d","e","g","d","aaa","aaa"]},
+      "account name": { "type": "string", "values": ["lll","lll","lll","ggg","lll","lll","lll"]}
+    },
+    "closed lost": { 
+      "title": { "type": "string", "values": ["abc","ddd","eee","ggg","ddd","aaa","lll"]},
+      "salutation": { "type": "string", "values": ["abc","ddd","eee","ggg","ddd","aaa","lll"]},
+      "department": { "type": "string", "values": ["kls","d","e","g","d","aaa","aaa"]},
+      "account name": { "type" : "string", "values": ["lll","lll","lll","ggg","lll","lll","lll"]}
+    }
+  }
+}

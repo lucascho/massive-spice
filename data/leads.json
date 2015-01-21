@@ -1,0 +1,50 @@
+{
+    "new": {
+        "title": "VP Operations",
+        "salutation": null,
+        "department": "",
+        "account name": ["Hollywood Diner Ltd", "Dirt Mining Ltd", "Nelson Inc", "Constrata Trust LLC", "SuperG Tech", "EEE Endowments LTD", "Coolview Net Ltd", "JAB Funds Ltd."]
+        "address": "",
+        "lead source": "",
+        "language preference": "",
+        "campaign": "",
+        "tags": ""
+    },
+    "assigned": {
+        "title": "VP Operations",
+        "salutation": null,
+        "department": "",
+        "account name": "Hollywood Diner Ltd",
+        "address": "",
+        "lead source": "",
+        "language preference": "",
+        "campaign": "",
+        "tags": ""
+    },
+    "converted": {
+        "title": "VP Operations",
+        "salutation": null,
+        "department": "",
+        "account name": "Hollywood Diner Ltd",
+        "address": "",
+        "lead source": "",
+        "language preference": "",
+        "campaign": "",
+        "tags": ""
+    }, 
+    "dead": {
+        "title": "VP Operations",
+        "salutation": null,
+        "department": "",
+        "account name": "Trait Institute Inc",
+        "address": "",
+        "lead source": "",
+        "language preference": "",
+        "campaign": "",
+        "tags": ""
+    }
+}
+
+
+
+
